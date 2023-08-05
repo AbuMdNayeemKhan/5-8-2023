@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="number1" type="text"> <br>
+    <input id="number2" type="text"> <br>
+    <button onclick="addTwoNumber()">submit</button>
+    <script>
+        function addTwoNumber(){
+            let num1 = document.getElementById('number1').value;
+            let num2 = document.getElementById('number2').value;
+            let result = Number(num1)+Number(num2);
+            alert(result);
+        }
+    </script>
+</body>
+</html>
